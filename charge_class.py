@@ -27,7 +27,7 @@ class system:
         self.timedev.update({tkey: self.q_dict})
         self.timealias.update({tkey: tkey * self.timestep})
         tkey += 1
-        print(f"nsteps = {self.nsteps}")
+        # print(f"nsteps = {self.nsteps}")
         for tind in range(self.nsteps):
             self.timealias.update({tkey: tkey * self.timestep})
             # print(f"tkey = {tkey}")

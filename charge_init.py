@@ -205,7 +205,7 @@ def two_charges(res, p1 = [-10, 0, 0], p2 = [10, 0, 0]):
 
 def randomize_properties(q_dict, version = 1, optarg = 0):
     num = len(q_dict)
-    print(num)
+    # print(num)
     # Will flip charge of half particles at random
     if version == 1:
         randomkeys = random.sample(range(1, num), int(np.ceil(num / 2)))
